@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO An Addictive Hobby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: red;
+            color: yellow;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color:red;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: yellow;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+
+        main {
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LEGO An Addictive Hobby</h1>
+    </header>
+
+    <%- include('./partials/nav.ejs')%>
+    <main>
+        <figure>
+        <img id="image" src="images/image1.jpeg" alt="Diagon Alley" width="300" height="200">
+        <figcaption>Diagon Alley</figcaption></figure>
+<h3> DIAGON ALLEY</h3>
+        <p>
+            Embarking on the journey of building the Diagon Alley Lego set is a captivating and immersive experience that transports enthusiasts into the enchanting world of Harry Potter. The set, meticulously designed to recreate the iconic wizarding shopping district, offers not only a visually stunning display piece but also a labor of love for avid Lego builders. Assembling the intricate details of Ollivanders Wand Shop, Weasleys' Wizard Wheezes, and other magical storefronts requires both patience and a keen eye for detail. The process becomes a delightful exploration of craftsmanship, where each brick contributes to the overall charm of the bustling Diagon Alley. Beyond the technical aspects, the experience is also a nostalgic trip for fans of the wizarding saga, evoking memories of the beloved characters and their magical adventures. Whether a seasoned Lego enthusiast or a devoted Harry Potter fan, building the Diagon Alley set is a magical odyssey that combines creativity, dedication, and a deep appreciation for the enchanting world of J.K. Rowling's creation.</p>
+    </main>
+
+    <footer id="Contact">
+        <p>Contact: gickers@gmail.com</p>
+    </footer>
+
+</body>
+</html>

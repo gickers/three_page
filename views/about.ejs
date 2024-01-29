@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO An Addictive Hobby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: red;
+            color: yellow;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color:red;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: yellow;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+
+        main {
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LEGO An Addictive Hobby</h1>
+    </header>
+
+    <%- include('./partials/nav.ejs')%>
+
+    <main>
+        <h2>About Me</h2>
+<figure>
+    <img id="image" src="images/IMG_0617.JPG" alt="Hogwarts Castle" width="300" height="200">
+<figcaption>Hogwarts Castle</figcaption>
+</figure>
+<p id="About">
+            Hello there! I'm Ross Williams-Gick, a dedicated Lego enthusiast with a heart that beats to the rhythm of clicking bricks and the boundless creativity they unleash. From the earliest memories of building my first Lego set, I've been captivated by the magic of turning a jumble of plastic pieces into a tangible world of imagination.</p>
+            
+            <p>As an ardent collector and builder, my passion for Lego extends far beyond the construction process. I revel in the thrill of exploring new sets, immersing myself in the intricate details of each design, and discovering the artistry within every brick. My love for Lego is a testament to the enduring joy that comes from creating something extraordinary out of the seemingly ordinary.</p>
+                       
+            <p>This About Me page is an open invitation to join me in celebrating the colorful, blocky world of Lego. Together, let's continue to build, create, and explore the endless possibilities that unfold when we let our imaginations run wild, one brick at a time. Welcome to my Lego haven!</p>
+    <figure>
+                <img id="image" src="images/IMG_0618.JPG" alt="Ghostbusters Firehouse" width="300" height="200">
+            <figcaption>Ghostbusters Firehouse</figcaption>
+            </figure>
+    </main>
+
+    <footer id="Contact">
+        <p>Contact: gickers@gmail.com</p>
+    </footer>
+
+</body>
+</html>

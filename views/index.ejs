@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGO An Addictive Hobby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: red;
+            color: yellow;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color:red;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: yellow;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+
+        main {
+            padding: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LEGO An Addictive Hobby</h1>
+    </header>
+
+    <%- include('./partials/nav.ejs')%>
+
+    <main>
+        <h2 id="Home">Why LEGO?</h2>
+<figure>
+    <img id="image" src="/images/image0.jpeg" alt="Home Alone House" width="300" height="200">
+<figcaption>Home Alone House</figcaption>
+</figure>
+<figure>
+    <img id="image" src="/images/image2.jpeg" alt="R2D2" width="300" height="200">
+<figcaption>R2D2</figcaption>
+</figure>
+        <p id="About">Engaging in Lego as a hobby can be a highly rewarding and enriching experience for adults. Beyond its nostalgic appeal, Lego offers a unique combination of creativity, problem-solving, and relaxation. Building intricate structures with Lego bricks allows adults to tap into their imaginative side, fostering a sense of accomplishment as they bring their ideas to life. The process of following instructions for complex sets or devising original designs promotes cognitive skills and spatial awareness, offering a break from the demands of everyday life. Moreover, the tactile nature of working with Lego provides a tangible and satisfying outlet for stress relief. Assembling Lego sets can also serve as a shared activity, fostering connections with friends, family, or even within dedicated Lego enthusiast communities. Ultimately, Lego as a hobby for adults transcends mere play, offering a multifaceted experience that combines creativity, mental stimulation, and the simple joy of building something tangible.</p>
+        
+    </main>
+
+    <footer id="Contact">
+        <p>Contact: gickers@gmail.com</p>
+    </footer>
+
+</body>
+</html>
